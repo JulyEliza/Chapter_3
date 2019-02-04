@@ -7,7 +7,7 @@ public class AccountTest2 {
 		Account2 account2 = new Account2("John Blue", -7.53);
 
 		displayAccount(account1);
-		displayAccount(account2);
+		displayAccount(account2);//hello
 		
 		System.out.printf("%s balance: $%.2f%n", account1.getName(), account1.getBalance()); // 13-14
 		System.out.printf("%s balance: $%.2f%n", account2.getName(), account2.getBalance());
